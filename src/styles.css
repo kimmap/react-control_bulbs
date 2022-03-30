@@ -1,0 +1,42 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+    .bulbs {
+      position: relative;
+    }
+
+    .off-bulb-container,
+    .on-bulb-container {
+        position: absolute;
+        background-color:white;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hidden {
+        transform: translate(-100%, 0%);
+    }
+        .bulb-off,
+        .bulb-on {
+            width: 100px;
+            height: 100px;
+            background-repeat: no-repeat;
+            background-size: 100px;
+            display: inline-block;
+        
+        }
+  
+        .bulb-off {
+            background-image: url("../public/bulb-off.svg");
+        }
+        
+        .bulb-on {
+            background-image: url("../public/bulb-on.svg");
+        }
+  
+  button {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
